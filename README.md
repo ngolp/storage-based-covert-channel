@@ -26,3 +26,4 @@
     * Bit flips can occur naturally through unreliable data transfer and cause the receiver to treat that packet’s checksum as data to interpret.
     * The application layer protocols used over UDP are chosen at random (protocol hopping), but the packets themselves are static. This can be remedied with more sample packets to send and another RNG to send different packets at random.
     * Because we send “good packets” after each “bad packet,” throughput is limited. Further work should look for more places in all layers of the network stack to hide data as a part of this covert channel, and randomly hop between them to promote more unstructured data transfer.
+    * The receiver may be expected to send back a response packet to appear "normal."
