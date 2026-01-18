@@ -97,9 +97,6 @@ def process_frame(frame):
 
     in_bytes = udp_info["csum_bytes"]
 
-    with open("received.bin", "ab") as f:
-        f.write(in_bytes)
-
     mode = sys.argv[1]
     if(mode == "text"):
         print(bytes(bytearray(in_bytes)).decode("utf-8", errors="replace"), end='', flush=True) # python fuckery
