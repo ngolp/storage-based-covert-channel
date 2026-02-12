@@ -1,4 +1,6 @@
-# RIVERSIDE RESEARCH GOATHACKS CHALLENGE
+# RIVERSIDE RESEARCH GOATHACKS 2026 CHALLENGE
+
+Update: this was the winning hack for Riverside Research's covert channels challenge :)
 
 ### Discussion Questions
 
